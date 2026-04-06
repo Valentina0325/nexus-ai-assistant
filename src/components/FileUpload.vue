@@ -10,7 +10,7 @@
   const emit = defineEmits(['update:modelValue'])
 
   const userStore = useUserStore()
-  const uploadUrl = 'http://localhost:3000/api/upload'
+  const uploadUrl = 'https://nexus-ai-backend-production-3faf.up.railway.app/api/upload'
   const uploading = ref(false)
   const files = ref([...props.modelValue])
 
