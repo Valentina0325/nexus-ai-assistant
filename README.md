@@ -38,7 +38,7 @@
 > 后端部署于 Render，前端部署于 Vercel。首次访问后端可能需等待 30-50 秒（免费实例休眠唤醒）。
 
 - 🌍 前端地址：[https://my-nexus-ai.netlify.app/]
-- 🔌 后端 API 地址：[https://nexus-ai-backend.onrender.com](https://nexus-ai-backend.onrender.com) （*请替换为你的实际后端地址*）
+- 🔌 后端 API 地址：[[https://nexus-ai-backend.onrender.com](https://nexus-ai-backend-production-3faf.up.railway.app/)]
 
 **测试账号**（手机号 / 密码）：
 - `13300000000` / `123456`
