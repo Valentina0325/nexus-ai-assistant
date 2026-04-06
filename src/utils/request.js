@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useUserStore } from '@/stores/user'
 import { ElMessage } from 'element-plus'
 
-const baseURL = 'http://localhost:3000'
+const baseURL = 'https://nexus-ai-backend-production-3faf.up.railway.app/'
 
 const instance = axios.create({
   baseURL,
