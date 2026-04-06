@@ -61,7 +61,7 @@
     if (type === 'text/plain') return '📄'
     if (type === 'application/pdf') return '📕'
     if (type.includes('word')) return '📘'
-    if (type.includes('excel')) return '📗'
+    if (type.includes('excel') || type.includes('spreadsheet')) return '📗'
     return '📎'
   }
 
