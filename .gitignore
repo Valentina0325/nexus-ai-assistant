@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 构建产物（不要上传 dist，因为部署平台会重新构建）
+dist/
+dist-ssr/
+*.local
+
+# 环境变量（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 系统文件
+.DS_Store
+Thumbs.db
