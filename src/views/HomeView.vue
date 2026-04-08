@@ -159,6 +159,40 @@
     }
   }
 
+ @media (max-width: 768px) {
+    .ai-assistant-wrapper {
+      flex-direction: column;
+      height: 100vh;
+      border-radius: 0;
+    }
+    .ai-assistant {
+      height: 100%;
+      padding: 0;
+    }
+    .chat-messages {
+      padding: 1rem;
+    }
+    .input-area {
+      padding: 0.8rem;
+    }
+    .bubble {
+      max-width: 85%;
+    }
+    .title-section h1 {
+      font-size: 1.4rem;
+    }
+    .title-section {
+      padding: 1rem 1rem 0.5rem;
+    }
+    .scroll-to-bottom-btn {
+      bottom: 200px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+
   .scroll-to-bottom-btn {
     position: absolute;
     bottom: 280px;
