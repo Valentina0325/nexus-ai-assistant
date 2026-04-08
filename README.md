@@ -58,15 +58,17 @@ npm run build
 
 ```
 ## 🛠️ 技术栈
-类别	技术
-框架	Vue 3 + Vite
-UI 组件	Element Plus
-状态管理	Pinia（持久化）
-路由	Vue Router
-HTTP	Axios
-Markdown	marked
+| 类别 | 技术 |
+|------|------|
+| 框架 | Vue 3 + Vite |
+| UI 组件 | Element Plus |
+| 状态管理 | Pinia（持久化） |
+| 路由 | Vue Router |
+| HTTP | Axios |
+| Markdown | marked |
+
 ## 🔗 后端仓库
-后端代码独立维护，提供登录、文件上传、AI 对话等 API。
+`后端代码独立维护，提供登录、文件上传、AI 对话等 API。`
 👉 [https://github.com/Valentina0325/nexus-ai-assistant-backend](https://github.com/Valentina0325/nexus-ai-assistant-backend)
 
 
