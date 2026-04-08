@@ -6,9 +6,8 @@
 ![Node](https://img.shields.io/badge/Node-18+-339933?logo=node.js)
 ![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express)
 ![智谱AI](https://img.shields.io/badge/智谱-GLM--4--Flash-0078D4)
-
 [![Netlify](https://img.shields.io/badge/Netlify-在线预览-00d4ff?style=flat-square&logo=netlify)](https://my-nexus-ai.netlify.app)
-[![Vue](https://img.shields.io/badge/Vue-3.x-42b883?style=flat-square&logo=vue.js)](https://vuejs.org/)
+
 
 ---
 
@@ -54,11 +53,5 @@ npm install
 # 3. 启动开发服务器
 npm run dev
 
-🛠️ 技术栈
-类别	技术
-框架	Vue 3 + Vite
-UI 组件	Element Plus
-状态管理	Pinia（持久化）
-路由	Vue Router
-HTTP	Axios
-Markdown	marked
+<img width="425" height="287" alt="image" src="https://github.com/user-attachments/assets/8cde63d8-f589-41ea-8ab4-ab4f5aee8450" />
+
