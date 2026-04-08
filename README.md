@@ -7,49 +7,58 @@
 ![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express)
 ![智谱AI](https://img.shields.io/badge/智谱-GLM--4--Flash-0078D4)
 
+[![Netlify](https://img.shields.io/badge/Netlify-在线预览-00d4ff?style=flat-square&logo=netlify)](https://my-nexus-ai.netlify.app)
+[![Vue](https://img.shields.io/badge/Vue-3.x-42b883?style=flat-square&logo=vue.js)](https://vuejs.org/)
+
 ---
 
 ## ✨ 功能亮点
 
-- 💬 **智能对话**：接入智谱 AI `glm-4-flash` 模型，流式输出，响应快速。
-- 📎 **文件解析**：支持上传 `.txt`、`.pdf`、`.docx`、`.xlsx` 等文件，自动提取文本内容作为对话上下文。
-- 🌐 **三种模式**：**翻译**、**润色**、**回答**，一键切换，适配不同场景。
-- 📜 **对话历史**：本地持久化存储（localStorage），支持新建、切换、删除对话，并自动生成标题。
-- 🔐 **用户登录**：模拟手机号登录（演示用），登录后对话记录与账号绑定。
-- 🎨 **赛博朋克 UI**：玻璃态毛玻璃效果、霓虹灯边框、动态光效，视觉沉浸。
+- 🤖 **智能对话** – 接入智谱 AI GLM-4-Flash，流式输出，响应极快  
+- 📎 **文件解析** – 支持 `.txt` / `.pdf` / `.docx` / `.xlsx`，自动提取文本作为上下文  
+- 🎛️ **三种模式** – 翻译 · 润色 · 回答，一键切换  
+- 📜 **对话历史** – 本地持久化存储，新建 / 切换 / 删除对话，自动生成标题  
+- 👤 **用户登录** – 模拟手机号登录，对话与账号绑定  
+- 🌌 **赛博朋克 UI** – 玻璃态毛玻璃，霓虹光效，动态背景  
 
 ---
 
-## 🛠 技术栈
+## 🌐 在线体验
 
-| 前端 | 后端 |
-|------|------|
-| Vue 3 (Composition API) | Node.js + Express |
-| Vite | 智谱 AI API (GLM-4-Flash) |
-| Element Plus | Multer (文件上传) |
-| Pinia (状态管理) | pdf-parse / mammoth / xlsx (内容解析) |
-| Vue Router | JWT (鉴权) |
-| Axios | node-schedule (定时清理) |
+**前端地址**：[https://my-nexus-ai.netlify.app](https://my-nexus-ai.netlify.app)  
 
----
-
-## 🚀 在线体验
-
-> 后端部署于 Render，前端部署于 Vercel。首次访问后端可能需等待 30-50 秒（免费实例休眠唤醒）。
-
-- 🌍 前端地址：(https://my-nexus-ai.netlify.app/)
-- 🔌 后端 API 地址：(https://nexus-ai-backend-production-3faf.up.railway.app/)
-
-**测试账号**（手机号 / 密码）：
+测试账号（手机号 / 密码）：
 - `13300000000` / `123456`
 - `13311111111` / `654321`
 
+> 后端服务部署在 Railway，首次访问需等待 30-50 秒唤醒。
+
 ---
 
-## 📦 本地运行
+## 🚀 本地运行
 
-### 1. 克隆项目
+### 环境要求
+- Node.js **18+**
+- npm 或 yarn
+
+### 步骤
 
 ```bash
+# 1. 克隆项目
 git clone https://github.com/Valentina0325/nexus-ai-assistant.git
 cd nexus-ai-assistant
+
+# 2. 安装依赖
+npm install
+
+# 3. 启动开发服务器
+npm run dev
+
+🛠️ 技术栈
+类别	技术
+框架	Vue 3 + Vite
+UI 组件	Element Plus
+状态管理	Pinia（持久化）
+路由	Vue Router
+HTTP	Axios
+Markdown	marked
