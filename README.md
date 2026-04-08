@@ -53,5 +53,6 @@ npm install
 # 3. 启动开发服务器
 npm run dev
 
-<img width="425" height="287" alt="image" src="https://github.com/user-attachments/assets/8cde63d8-f589-41ea-8ab4-ab4f5aee8450" />
+# 4.生产打包
+npm run build
 
