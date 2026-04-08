@@ -1,11 +1,21 @@
 <script setup>
-  import { ref, watch, nextTick } from 'vue'
+  import { ref, watch, nextTick,computed } from 'vue'
   import marked from 'marked'
 
   const props = defineProps({
-    messages: { type: Array, required: true },
+    messages: { type: [Array,Object], required: true },
     loading: { type: Boolean, default: false },
   })
+
+const messagesArray = computed(() => {
+  if (Array.isArray(props.messages)) {
+    return props.messages
+  }
+  if (props.messages && typeof props.messages === 'object' && 'value' in props.messages) {
+    return props.messages.value
+  }
+  return []
+})
 
   const emit = defineEmits(['scroll-change'])
 
@@ -35,7 +45,7 @@
   }
 
   watch(
-    () => props.messages,
+    () => messagesArray.value,
     () => {
       scrollToBottom()
     },
@@ -88,7 +98,7 @@
 <template>
   <div class="chat-messages" ref="chatMsgRef" @scroll="handleScroll">
     <div
-      v-for="(item, index) in messages"
+      v-for="(item, index) in messagesArray"
       :key="index"
       :class="['message', item.role]"
     >

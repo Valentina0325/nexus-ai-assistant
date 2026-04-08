@@ -52,7 +52,7 @@
         <ChatHeader />
         <ChatMessage
           ref="chatMessagesRef"
-          :messages="store.currentMessages.value"
+          :messages="store.currentMessages"
           :loading="loading"
           @scroll-change="onScrollChange"
         />
